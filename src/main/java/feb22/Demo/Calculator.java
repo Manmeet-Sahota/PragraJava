@@ -21,7 +21,8 @@ ArithmeticDemo arithmeticDemo= new ArithmeticDemo();
         switch (input){
 
             case 1:
-                System.out.println("enter the first number");
+
+
                 int num1 = scanner.nextInt();
                 System.out.println("enter the second  number");
                 int num2= scanner.nextInt();
