@@ -4,13 +4,12 @@ public class Employee {
 int id;
 String name;
 String email;
-String company;
+ static String company= "Pragra";
 
-    public Employee(int id, String name, String email, String company) {
+    public Employee(int id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.company = company;
     }
 
     public void employeeDes(){
